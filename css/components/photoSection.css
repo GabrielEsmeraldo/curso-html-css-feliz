@@ -1,0 +1,15 @@
+.photoSection {
+    background-image: url(../../assets/photo.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: 100%;
+    display: flex;
+    border-bottom: 10px solid black;
+}
+
+.wapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 170px;
+}

@@ -4,8 +4,14 @@
     text-align: center;
     padding: 43px 43px;
     box-shadow: 10px 10px 0px 0px #000000;
+    justify-content: center;
+    align-items: center;
 }
 
 .box h1 { 
     margin-bottom: 25px;   
+}
+
+.photoSection .box{
+    margin-top: -131px;
 }

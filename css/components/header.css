@@ -5,3 +5,8 @@
     padding: 10px 20px;
     justify-content: space-between;
 }
+
+.avatar {
+    width: 60px;
+    height: auto;
+}
