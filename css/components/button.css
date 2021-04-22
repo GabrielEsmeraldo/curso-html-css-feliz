@@ -1,4 +1,4 @@
-#btnDownload {
+.btnDownload {
     display: inline-block;
     background-color: #F25A70;
     height: 60px;
@@ -7,9 +7,13 @@
     line-height: 60px;
     box-shadow: 5px 5px 0px black;
     transition: transform 100ms linear;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    color: white;
 }
 
-#btnDownload:hover {
+.btnDownload:hover {
     transform: scale(1.08);
 }
 

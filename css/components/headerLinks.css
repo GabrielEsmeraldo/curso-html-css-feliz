@@ -1,0 +1,18 @@
+.headerLinks {
+    display: inline-flex;
+    color: white;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.headerLinks::before {
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: #F25A70;
+    margin-right: 10px;
+    align-items: middle;
+}
