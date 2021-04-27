@@ -20,21 +20,42 @@ progress::-webkit-progress-bar {
     background-color: white;
 }
 
-.skills-component {
-    display: inline-flex;
+.img-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    height: 93px;
+    width: 93px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.skills-component {
+    display: flex;
+    margin-bottom: 38px;
+}
+
+.skills-wrapper {
+    display: flex;
+    width: 960px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-container img {
+    width: auto;
+    height: auto;
 }
 
 .right-alignment {
-    margin-right: 26px;
+    margin-right: 100px;
 }
 
-.skills-component img {
-    width: 90px;
-    height: 90px;
+.img-right-alignment {
+    padding-right: 16px;
 }
-
-.skills-component h3 {
-    margin-bottom: 16px;
-}
-
