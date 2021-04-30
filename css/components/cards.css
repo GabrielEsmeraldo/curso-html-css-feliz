@@ -1,0 +1,16 @@
+.project-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    background-color: #7C5E99;
+    box-shadow: 10px 10px 0px #FFFFFF;
+    margin-left: 78px;
+    margin-right: 78px;
+}
+
+.card-wapper {
+    display: flex;
+    justify-content: center;
+}
