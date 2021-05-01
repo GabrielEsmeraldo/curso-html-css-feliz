@@ -22,3 +22,27 @@
     justify-content: space-evenly;
     margin-top: 38px;
 }
+
+.left-small-button {
+    width: 50px;
+    height: 50px;
+    background-color: #F25A70;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 5px 5px 0px #000000;
+}
+
+.right-small-button {
+    width: 50px;
+    height: 50px;
+    background-color: #F25A70;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 5px 5px 0px #000000;
+}
+
+img.-rolate {
+    transform: scaleX(-1);
+}
