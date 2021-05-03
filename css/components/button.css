@@ -43,6 +43,13 @@
     box-shadow: 5px 5px 0px #000000;
 }
 
-img.-rolate {
-    transform: scaleX(-1);
+.button.-full {
+    width: 100%;
+    border: none;
+    margin-top: 40px;
+}
+
+.button.-full:hover {
+    transform: scale(1.01);
+    transition: transform 100ms linear;
 }
